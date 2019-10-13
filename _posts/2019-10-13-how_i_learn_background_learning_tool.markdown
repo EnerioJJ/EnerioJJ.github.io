@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "How I Learn: Background Learning Tool"
+title:      "How I Learn: Background Learning Tool/Goal"
 date:       2019-10-13 16:38:41 -0400
 permalink:  how_i_learn_background_learning_tool
 ---
