@@ -6,7 +6,8 @@ permalink:  how_i_learn_background_learning_tool
 ---
 
 
-*{ Please note that some of my words have UK spelling; I was born in the US, but it's just a preference. } *
+*{ Please note that some of my words have UK spelling; I was born in the US, but it's just a preference. }*
+###### *Also apologies for any formatting errors; the pre-code isn't playing nice!*
 
 It's been a long time since I first started learning Ruby. I think I first tackled the language... oh, I don't know... Five or six years ago? During that time, I was trying to find a language that worked for me making text-only, user interactive games. I've always liked the idea of making games that people can use a CLI to play. That was something that I really wanted to do, but while I was building up to that phase, I was trying to find a language that would, at least, be fun to use as a foundation for text game design. 
 
@@ -70,28 +71,28 @@ This is an incredibly simple way to test if we have the right amount of players,
 
 ```
 def game_start
-    puts "The game will start in..."
+   puts "The game will start in..."
 
-    counter = 10
+   counter = 10
 
-    while counter > 0
-        puts "#{counter}!"
-        counter -= 1
-        sleep(1)
+   while counter > 0
+      puts "#{counter}!"
+      counter -= 1
+      sleep(1)
     end
 
-    return "Let's go!"
+   return "Let's go!"
 end
 ```
 
 ```
 if ttplayers.size == 4
-    puts "We can start the game!"
-    game_start
+   puts "We can start the game!"
+   game_start
 elsif ttplayers.size < 4
-    puts "We need more players..."
+   puts "We need more players..."
 else
-    puts "We don't have enough room for more players."
+   puts "We don't have enough room for more players."
 end
 ```
 
