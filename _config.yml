@@ -1,11 +1,11 @@
 # Site settings
-author: Jay W.
-title: 
+author: Jay
+title: Wall Spaghetti Code
 header-img: img/home-bg.png
 email: januarydwilson@gmail.com
-copyright_name: Jay W.
+copyright_name: Jay
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A head soup of different ideas
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  EnerioJJ
