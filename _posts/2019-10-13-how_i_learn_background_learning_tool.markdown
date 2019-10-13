@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How I Learn: Background Learning Tool"
-date:       2019-10-13 20:38:40 +0000
+date:       2019-10-13 16:38:41 -0400
 permalink:  how_i_learn_background_learning_tool
 ---
 
@@ -64,7 +64,7 @@ Now, you can also put `return "Oh, hey, #{name}! Welcome to the game."` or just 
 
 We've got the basic set up, but now we're going to do a headcount of the players we have. Someone might join in or drop out last second after all!
 
-`ttplayers.size == 4 ? "We can start the game!" : "We need to change some things."`
+`ttplayers.size == 4 ? "We can start the game!" : "We need to change some things."`     *#=> "We can start the game!"*
  
 This is an incredibly simple way to test if we have the right amount of players, but what if we don't have the right amount? What if there are too many or too little? Well....
 
