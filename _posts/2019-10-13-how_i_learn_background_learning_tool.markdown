@@ -71,29 +71,30 @@ This is an incredibly simple way to test if we have the right amount of players,
 ```
 def game_start
     puts "The game will start in..."
-		
-		counter = 10
-		
-		while counter > 0
-		    puts "#{counter}!"
-				counter -= 1
-				sleep(1)
-		end
-		
-		return "Let's go!"
+
+    counter = 10
+
+    while counter > 0
+        puts "#{counter}!"
+        counter -= 1
+        sleep(1)
+    end
+
+    return "Let's go!"
 end
 ```
 
 ```
 if ttplayers.size == 4
-  	puts "We can start the game!"
-		game_start
+    puts "We can start the game!"
+    game_start
 elsif ttplayers.size < 4
-  	puts "We need more players..."
+    puts "We need more players..."
 else
-  	puts "We don't have enough room for more players."
+    puts "We don't have enough room for more players."
 end
 ```
+
 
 
 Since we have the perfect amount of players, it's time for our Game Master to kick things into high gear.
