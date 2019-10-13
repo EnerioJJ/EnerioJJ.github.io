@@ -76,8 +76,8 @@ def game_start
 		
 		while counter > 0
 		    puts "#{counter}!"
-		    counter -= 1
-		    sleep(1)
+				counter -= 1
+				sleep(1)
 		end
 		
 		return "Let's go!"
