@@ -46,7 +46,7 @@ puts game_master
 ```
 
 
-I used a bit of array splicing in this to get the information I needed. Instead of using [1..4] to get from the first index in the array to the last (index 4), I used **-1**. Let's just say that there comes a time where I don't know how long my array was (maybe I had four elements, maybe I had ten), so instead of trying to guess where the very end was, I just used **-1** to get the last element.
+I used a bit of array splicing in this to get the information I needed. Instead of using [1..4] to get from the first index in the array to the last (index 4), I used **-1**. Let's just say that there comes a time where I don't know how long my array is (maybe I have four elements, maybe I have ten), so instead of trying to guess where the very end is, using **-1** allows me to get the last element.
 
 ```
 def name_your_GM(name="Game Master")                       #method with default argument
