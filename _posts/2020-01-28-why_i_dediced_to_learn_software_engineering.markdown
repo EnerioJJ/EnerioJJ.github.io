@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Why I Dediced to Learn Software Engineering."
-date:       2020-01-28 23:16:54 +0000
+title:      "Why I Decided to Learn Software Engineering."
+date:       2020-01-28 18:16:55 -0500
 permalink:  why_i_dediced_to_learn_software_engineering
 ---
 
